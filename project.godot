@@ -11,9 +11,8 @@ config_version=5
 [application]
 
 config/name="ISim"
-run/main_scene="res://COGITO/DemoScenes/COGITO_01_Demo.tscn"
-config/features=PackedStringArray("4.2")
-config/icon="res://Settings/icon.svg"
+run/main_scene="res://Project/Scenes/Levels/TestScenes.tscn"
+config/features=PackedStringArray("4.2", "C#")
 
 [autoload]
 
