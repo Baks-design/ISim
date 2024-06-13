@@ -1,3 +1,5 @@
+#nullable disable
+
 using Godot;
 using Godot.Collections;
 

@@ -383,7 +383,7 @@ MarginContainer/constants/margin_top = 10
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_k4wwl"]
 
-[node name="PlayerEntity" type="CharacterBody3D" node_paths=PackedStringArray("HEAD", "CAMERA", "HEADBOB_ANIMATION", "JUMP_ANIMATION", "CROUCH_ANIMATION", "COLLISION_MESH", "CEILING_DETECTION")]
+[node name="PlayerEntity" type="CharacterBody3D" node_paths=PackedStringArray("HEAD", "CAMERA", "HEADBOB_ANIMATION", "JUMP_ANIMATION", "CROUCH_ANIMATION", "COLLISION_MESH", "CEILING_DETECTION", "MESH")]
 script = ExtResource("1_k4a5r")
 defaultReticle = "res://Project/Scenes/UI/Reticle_0.tscn"
 HEAD = NodePath("Head")
@@ -393,6 +393,7 @@ JUMP_ANIMATION = NodePath("Head/JumpAnimation")
 CROUCH_ANIMATION = NodePath("CrouchAnimation")
 COLLISION_MESH = NodePath("Collision")
 CEILING_DETECTION = NodePath("CrouchCeilingDetection")
+MESH = NodePath("Mesh")
 
 [node name="Mesh" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
